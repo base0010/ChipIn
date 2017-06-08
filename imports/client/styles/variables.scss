@@ -1,0 +1,35 @@
+//colors
+$brand-primary: #62a7e7;
+$brand-secondary: #ff8c00;
+$white-text: #eeeeee;
+$black-text: #303030;
+$grey: #cccccc;
+$light-grey: #dedede;
+
+
+//spacing
+$space: 1.4rem;
+
+//Font
+$app-font: 'Helvetica';
+//fontsizes
+$base-font-size: 1.4rem;
+//form inputs
+$input-border: $grey;
+$input-space: 1rem;
+//boxed views
+$boxed-view-overlay-bg: $grey;
+$boxed-view-bg: white;
+//button
+$button-bg:$brand-primary;
+$button-color: $white-text;
+
+////pill
+$button-pill-color: $brand-primary;
+//secondary
+$button-secondary-color: #777777;
+$button-secondary-bg: $light-grey;
+$button-secondary-border-color: $grey;
+//item
+$item-bg: $light-grey;
+$item-border: darken($item-bg, 8% );

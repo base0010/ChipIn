@@ -1,0 +1,85 @@
+.tab-bar{
+  background-color: $light-grey;
+  position:fixed;
+  top:60px;
+  left:0;
+  list-style-type: none;
+  font-size: 1.75em;
+  padding-right:10px;
+  padding-left: 10px;
+  width:100%;
+  z-index:100;
+  border-bottom: 1px solid $black-text; 
+}
+
+.tab-active{
+    color: $black-text;
+    background-color: $light-grey;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 1px;
+    border-bottom: 3px solid $brand-secondary !important;
+}
+
+.tab{
+    color: $black-text;
+    background-color: $light-grey;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 1px;
+    border-bottom: 3px solid $light-grey;
+}
+
+.tab:hover{
+    background-color:$grey;
+    border-bottom: 3px solid $grey;
+}
+
+
+.tab-bar li{
+    float:left;
+}
+
+.scrollable{
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.tab-container{
+   height: 85vh !important;
+   width: 75vw;
+   position: fixed;
+   bottom: 0;
+   left: 10px;
+}
+.tab-right-container{
+   height: 85vh !important;
+   width: 22vw;
+   position: fixed;
+   bottom: 0;
+   right: 10px;
+}
+
+.tab-right-fifty{
+   height: 85vh !important;
+   width: 49vw;
+   position: fixed;
+   bottom: 0;
+   right: 10px;
+   padding-right:5px;
+}
+
+.tab-left-fifty{
+   height: 85vh !important;
+   width: 48vw;
+   position: fixed;
+   bottom: 0;
+   left: 10px;
+   padding-right:10px;
+}

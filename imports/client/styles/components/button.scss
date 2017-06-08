@@ -1,0 +1,48 @@
+.button{
+  background-color: $button-bg;
+  border: none;
+  color: $button-color;
+  cursor: pointer;
+  padding: $input-space;
+  font-size: $base-font-size;
+  margin-bottom: $space;
+  line-height: 1.2rem;
+  text-transform: uppercase;
+}
+
+.tileButton{
+  background-color: $button-bg;
+  color:$button-color;
+  text-transform: uppercase;
+  font-size: 3em;
+  font-family: $app-font;
+  margin: 5px;
+  height: 400px;
+  width: 400px;
+}
+
+.button--link{
+	display: inline-block;
+  text-decoration: none;
+
+}
+.button--pill{
+  background-color: transparent;
+  border: 2px solid $button-pill-color;
+  color: $button-pill-color;
+  font-size:1.1em;
+  font-weight: bold;
+  padding: .3rem .8rem;
+
+}
+.button--secondary{
+  background: $button-secondary-bg;
+  border: 1px solid $button-secondary-border-color;
+  color: $button-secondary-color;
+}
+.button--link-text{
+  background: none;
+  padding: 0;
+  margin: 0;
+  text-decoration: underline; 
+}

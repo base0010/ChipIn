@@ -1,0 +1,17 @@
+import React from 'react';
+import {Link, browserHistory} from 'react-router';
+import PrivateHeader from './PrivateHeader';
+import Tabs from './OrganizerTabs';
+import CreateEvent from './CreateEvent'; 
+
+export default class Organizer extends React.Component{
+    render(){
+        return(
+        <div className="boxed-view">
+
+            <PrivateHeader title="Organizer"/>               
+            <Tabs className="tab-bar"/>
+            <CreateEvent/>
+        </div>
+     );}
+};

@@ -1,0 +1,17 @@
+.header{
+  background: $brand-primary;
+  color: white;
+  position:fixed;
+  top:0;
+  width:100%;
+  z-index:100;
+}
+.header__content{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: $space;
+}
+.header__title{
+  margin: 0 ;
+}

@@ -1,0 +1,7 @@
+{
+	"galaxy.meteor.com":{
+		"env": {
+		"MONGO_URL": "mongodb://m:Fox@ds163301.mlab.com:63301/chipin"
+			}
+		}
+}

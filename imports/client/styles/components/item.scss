@@ -1,0 +1,22 @@
+.item-container{
+  background: $item-bg;
+  border: 1px solid $item-border;
+  margin-bottom: $space;
+  padding: $space; 
+  height: 180px;
+  min-width: 500px;
+}
+
+.left-col{
+  width:auto;
+  overflow: hidden;
+  height:180px;
+}
+
+.right-col{
+  width: auto;
+  overflow:hidden;
+  height:180px;
+  float:right;
+}
+
